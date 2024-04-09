@@ -4,7 +4,7 @@
     <div class="search-input-container">
       <input class="serch-input" type="text" placeholder="Czego szukasz?" />
       <button class="serch-input-button">
-        <img src="@/assets/search.png" alt="" />
+        <img src="@/assets/search.png" alt="search icon" />
       </button>
     </div>
     <div class="tab" id="tab-1">
@@ -37,6 +37,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 5vh;
+  gap: 10px;
 }
 img {
   height: 5vh;
@@ -50,8 +51,9 @@ img {
   border: 1px solid rgb(204, 204, 204);
   height: 30px;
   padding-left: 10px;
-  height: 5vh;
-  width: 25vw;
+  height: 4.7vh;
+  width: 32vw;
+  /* margin: 0 30px; */
 }
 
 .serch-input {
@@ -70,7 +72,7 @@ img {
   border: none;
   border-radius: 7px;
   background: rgb(68, 68, 68);
-  width: 50px;
+  width: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +83,7 @@ img {
 }
 
 .serch-input-button img {
-  height: 100%;
+  height: 75%;
 }
 
 .tab {
@@ -95,12 +97,13 @@ img {
 }
 
 .tab img {
-  height: 3.4vh;
+  height: 3.2vh;
 }
 .tab p {
   height: 1vh;
   margin: 2px;
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
 }
 </style>
