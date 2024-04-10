@@ -31,12 +31,12 @@
 <style scoped>
 nav {
   padding: 1vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 9.9vw;
+  padding-right: 9.9vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5vh;
+  height: 6.2vh;
   gap: 10px;
 }
 img {
@@ -97,7 +97,7 @@ img {
 }
 
 .tab img {
-  height: 3.2vh;
+  height: 3.1vh;
 }
 .tab p {
   height: 1vh;
