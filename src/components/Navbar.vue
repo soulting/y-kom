@@ -1,6 +1,31 @@
 <template>
-  <nav>
-    <img src="@/assets/logo.png" alt="" />
+  <nav
+    class="main-navbar"
+    :style="{
+      'box-shadow': isOnTop
+        ? 'none'
+        : ' 0px 0px 5px 1px rgba(197, 197, 197, 1)',
+    }"
+  >
+    <div class="logo-container">
+      <img src="@/assets/logo-text.png" alt="y-kom logo text" />
+      <transition name="hamburger-transition">
+        <img
+          v-if="!isOnTop"
+          class="hamburger-menu"
+          src="@/assets/hamburger.png"
+          alt="hamburgermenu logo"
+        />
+      </transition>
+
+      <transition name="logo-transition"> </transition>
+      <img
+        src="@/assets/logo.png"
+        alt="y-kom logo"
+        :style="{ transform: isOnTop ? 'scale(1)' : 'scale(0.8)' }"
+      />
+    </div>
+
     <div class="search-input-container">
       <input class="serch-input" type="text" placeholder="Czego szukasz?" />
       <button class="serch-input-button">
@@ -9,24 +34,39 @@
     </div>
     <div class="tab" id="tab-1">
       <img src="@/assets/headphone.png" alt="headphones icon" />
-      <p>Pomoc i kontakt</p>
+      <transition name="paragraph-transition">
+        <p v-if="isOnTop">Pomoc i kontakt</p>
+      </transition>
     </div>
     <div class="tab" id="tab-2">
       <img src="@/assets/person.png" alt="head icon" />
-      <p>Twoje konto</p>
+      <transition name="paragraph-transition">
+        <p v-if="isOnTop">Twoje konto</p>
+      </transition>
     </div>
     <div class="tab" id="tab-3">
       <img src="@/assets/heart.png" alt="heart icon" />
-      <p>Twoje listy</p>
+      <transition name="paragraph-transition">
+        <p v-if="isOnTop">Twoje listy</p>
+      </transition>
     </div>
     <div class="tab" id="tab-4">
       <img src="@/assets/shopping-cart.png" alt="cart icon" />
-      <p>Koszyk</p>
+      <transition name="paragraph-transition">
+        <p v-if="isOnTop">Koszyk</p>
+      </transition>
     </div>
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+const props = defineProps({
+  isOnTop: {
+    type: Boolean,
+    required: true,
+  },
+});
+</script>
 
 <style scoped>
 nav {
@@ -39,8 +79,10 @@ nav {
   height: 6.2vh;
   gap: 10px;
 }
+
 img {
   height: 5vh;
+  transition: all 0.3 ease;
 }
 
 .search-input-container {
@@ -53,7 +95,6 @@ img {
   padding-left: 10px;
   height: 4.7vh;
   width: 32vw;
-  /* margin: 0 30px; */
 }
 
 .serch-input {
@@ -98,6 +139,8 @@ img {
 
 .tab img {
   height: 3.1vh;
+  background-color: white;
+  z-index: 2;
 }
 .tab p {
   height: 1vh;
@@ -105,5 +148,56 @@ img {
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   white-space: nowrap;
+  z-index: 1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu {
+  height: 25px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 100px;
+  position: fixed;
+}
+
+.paragraph-transition-enter-from,
+.paragraph-transition-leave-to {
+  transform: translateY(-100%) scaleX(0.6);
+  opacity: 0;
+}
+
+.paragraph-transition-enter-active,
+.paragraph-transition-leave-active {
+  transition: all 0.3s ease;
+}
+
+.logo-transition-enter-from,
+.logo-transition-leave-to {
+  transform: scale(0.6);
+}
+
+.logo-transition-enter-active,
+.logo-transition-leave-active {
+  transition: all 0.3s ease;
+}
+
+.hamburger-transition-enter-from,
+.hamburger-transition-leave-to {
+  transform: scale(0);
+}
+
+.hamburger-transition-enter-active,
+.hamburger-transition-leave-active {
+  transition: all 0.3s ease;
 }
 </style>
