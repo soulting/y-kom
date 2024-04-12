@@ -45,7 +45,7 @@ main {
 
 .undertabs-animation-enter-from,
 .undertabs-animation-leave-to {
-  transform: translateY(-100%) scaleY(0.6);
+  transform: translateY(-100%) scaleY(0);
   opacity: 0;
 }
 

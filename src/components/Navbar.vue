@@ -5,10 +5,14 @@
       'box-shadow': isOnTop
         ? 'none'
         : ' 0px 0px 5px 1px rgba(197, 197, 197, 1)',
+      height: isOnTop ? '6.2vh' : '4.5vh',
     }"
   >
     <div class="logo-container">
       <img src="@/assets/logo-text.png" alt="y-kom logo text" />
+      <transition name="hamburger-menu-container-transmision">
+        <div v-if="!isOnTop" class="hamburger-menu-container"></div>
+      </transition>
       <transition name="hamburger-transition">
         <img
           v-if="!isOnTop"
@@ -33,25 +37,41 @@
       </button>
     </div>
     <div class="tab" id="tab-1">
-      <img src="@/assets/headphone.png" alt="headphones icon" />
+      <img
+        src="@/assets/headphone.png"
+        alt="headphones icon"
+        :style="{ top: isOnTop ? '0' : '7.5px' }"
+      />
       <transition name="paragraph-transition">
         <p v-if="isOnTop">Pomoc i kontakt</p>
       </transition>
     </div>
     <div class="tab" id="tab-2">
-      <img src="@/assets/person.png" alt="head icon" />
+      <img
+        src="@/assets/person.png"
+        alt="head icon"
+        :style="{ top: isOnTop ? '0' : '7.5px' }"
+      />
       <transition name="paragraph-transition">
         <p v-if="isOnTop">Twoje konto</p>
       </transition>
     </div>
     <div class="tab" id="tab-3">
-      <img src="@/assets/heart.png" alt="heart icon" />
+      <img
+        src="@/assets/heart.png"
+        alt="heart icon"
+        :style="{ top: isOnTop ? '0' : '7.5px' }"
+      />
       <transition name="paragraph-transition">
         <p v-if="isOnTop">Twoje listy</p>
       </transition>
     </div>
     <div class="tab" id="tab-4">
-      <img src="@/assets/shopping-cart.png" alt="cart icon" />
+      <img
+        src="@/assets/shopping-cart.png"
+        alt="cart icon"
+        :style="{ top: isOnTop ? '0' : '7.5px' }"
+      />
       <transition name="paragraph-transition">
         <p v-if="isOnTop">Koszyk</p>
       </transition>
@@ -69,6 +89,11 @@ const props = defineProps({
 </script>
 
 <style scoped>
+.slide-down {
+  height: 0;
+  transition: all 0.5s;
+}
+
 nav {
   padding: 1vh;
   padding-left: 9.9vw;
@@ -77,7 +102,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 6.2vh;
-  gap: 10px;
+  transition: all 0.3s ease;
 }
 
 img {
@@ -135,12 +160,17 @@ img {
   height: 5vh;
   padding: 0px;
   margin: 0px;
+  width: 5vw;
+  position: relative;
 }
 
 .tab img {
   height: 3.1vh;
   background-color: white;
   z-index: 2;
+  position: absolute;
+
+  transition: all 0.3s;
 }
 .tab p {
   height: 1vh;
@@ -149,6 +179,9 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   white-space: nowrap;
   z-index: 1;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
 }
 
 .logo-container {
@@ -160,19 +193,26 @@ img {
 .logo-container img {
   transition: all 0.3s ease;
 }
+.hamburger-menu-container {
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  width: 100px;
+  height: 6.2vh;
+  background-color: rgb(255, 255, 255);
+}
 
 .hamburger-menu {
   height: 25px;
   background-color: rgb(242, 242, 242);
   border-radius: 5px;
   padding: 10px;
-  margin-right: 100px;
   position: fixed;
 }
 
 .paragraph-transition-enter-from,
 .paragraph-transition-leave-to {
-  transform: translateY(-100%) scaleX(0.6);
+  transform: translateY(-100%) scaleX(0);
   opacity: 0;
 }
 
@@ -198,6 +238,16 @@ img {
 
 .hamburger-transition-enter-active,
 .hamburger-transition-leave-active {
+  transition: all 0.5s ease;
+}
+
+.hamburger-menu-container-transmision-enter-from,
+.hamburger-menu-container-transmision-leave-to {
+  transform: translateX(-100%);
+}
+
+.hamburger-menu-container-transmision-enter-active,
+.hamburger-menu-container-transmision-leave-active {
   transition: all 0.3s ease;
 }
 </style>
