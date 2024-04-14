@@ -77,9 +77,15 @@
       </transition>
     </div>
   </nav>
+  <transition name="undertabs-animation">
+    <div v-if="isOnTop" class="undertabs-component">
+      <NavbarUndertabs />
+    </div>
+  </transition>
 </template>
 
 <script setup>
+import NavbarUndertabs from "@/components/NavbarUndertabs.vue";
 const props = defineProps({
   isOnTop: {
     type: Boolean,
@@ -94,7 +100,7 @@ const props = defineProps({
   transition: all 0.5s;
 }
 
-nav {
+.main-navbar {
   padding: 1vh;
   padding-left: 9.9vw;
   padding-right: 9.9vw;
@@ -103,6 +109,9 @@ nav {
   justify-content: space-between;
   height: 6.2vh;
   transition: all 0.3s ease;
+  z-index: 101;
+  background-color: white;
+  position: relative;
 }
 
 img {
@@ -249,5 +258,22 @@ img {
 .hamburger-menu-container-transmision-enter-active,
 .hamburger-menu-container-transmision-leave-active {
   transition: all 0.3s ease;
+}
+
+.undertabs-component {
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+}
+
+.undertabs-animation-enter-from,
+.undertabs-animation-leave-to {
+  transform: translateY(-100%) scaleY(0);
+  opacity: 0;
+}
+
+.undertabs-animation-enter-active,
+.undertabs-animation-leave-active {
+  transition: all 0.6s ease;
 }
 </style>
