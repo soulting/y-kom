@@ -37,6 +37,6 @@ main {
 
 .start-site-container {
   position: relative;
-  top: 120px;
+  top: 130px;
 }
 </style>
