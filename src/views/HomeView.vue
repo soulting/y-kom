@@ -3,8 +3,9 @@
     <div class="navbar-component">
       <Navbar :isOnTop="onTop" />
     </div>
-
-    <StartSite />
+    <div class="start-site-container">
+      <StartSite />
+    </div>
   </main>
 </template>
 
@@ -32,5 +33,10 @@ main {
   width: 100%;
   position: fixed;
   z-index: 101;
+}
+
+.start-site-container {
+  position: relative;
+  top: 120px;
 }
 </style>

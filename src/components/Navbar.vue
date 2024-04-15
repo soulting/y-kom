@@ -5,7 +5,7 @@
       'box-shadow': isOnTop
         ? 'none'
         : ' 0px 0px 5px 1px rgba(197, 197, 197, 1)',
-      height: isOnTop ? '6.2vh' : '4.5vh',
+      height: isOnTop ? '72px' : '56px',
     }"
   >
     <div class="logo-container">
@@ -95,27 +95,21 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.slide-down {
-  height: 0;
-  transition: all 0.5s;
-}
-
 .main-navbar {
-  padding: 1vh;
-  padding-left: 9.9vw;
-  padding-right: 9.9vw;
+  padding: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 6.2vh;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   z-index: 101;
   background-color: white;
   position: relative;
 }
 
 img {
-  height: 5vh;
+  height: 40px;
   transition: all 0.3 ease;
 }
 
@@ -127,8 +121,8 @@ img {
   border: 1px solid rgb(204, 204, 204);
   height: 30px;
   padding-left: 10px;
-  height: 4.7vh;
-  width: 32vw;
+  height: 40px;
+  width: 490px;
 }
 
 .serch-input {
@@ -166,23 +160,22 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 5vh;
+  height: 40px;
   padding: 0px;
   margin: 0px;
-  width: 5vw;
+  min-width: 40px;
   position: relative;
 }
 
 .tab img {
-  height: 3.1vh;
+  height: 25px;
   background-color: white;
   z-index: 2;
   position: absolute;
-
   transition: all 0.3s;
 }
 .tab p {
-  height: 1vh;
+  height: 10px;
   margin: 2px;
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
@@ -207,12 +200,12 @@ img {
   align-items: flex-start;
   position: fixed;
   width: 100px;
-  height: 6.2vh;
+  height: 50px;
   background-color: rgb(255, 255, 255);
 }
 
 .hamburger-menu {
-  height: 25px;
+  height: 37px;
   background-color: rgb(242, 242, 242);
   border-radius: 5px;
   padding: 10px;
@@ -262,7 +255,7 @@ img {
 
 .undertabs-component {
   position: absolute;
-  top: 60px;
+  top: 72px;
   z-index: 1;
 }
 
@@ -274,6 +267,6 @@ img {
 
 .undertabs-animation-enter-active,
 .undertabs-animation-leave-active {
-  transition: all 0.6s ease;
+  transition: all 0.4s ease;
 }
 </style>

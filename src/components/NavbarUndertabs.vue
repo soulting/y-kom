@@ -54,26 +54,30 @@
 .undertabs {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: 9.9vw;
-  padding-right: 9.9vw;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
   background-color: rgb(242, 242, 242);
+  box-shadow: 0px 0px 5px 1px rgba(197, 197, 197, 1);
 }
 
 .undertab {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 5px;
-  width: 9vw;
+  align-items: center;
+  height: 48px;
+  width: 100%;
 }
 
 .undertab img {
-  height: 3vh;
+  height: 22px;
+  margin-right: 5px;
 }
 
 .undertab p {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  margin: 0;
 }
 </style>
