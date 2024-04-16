@@ -3,25 +3,24 @@
     id="carouselExampleControls"
     class="carousel slide"
     data-bs-ride="carousel"
+    data-bs-touch="true"
   >
     <div class="carousel-inner">
       <div
         v-for="(slide, index) in slides"
         :key="index"
-        :class="{ 'carousel-item': true, active: index === 0 }"
+        :class="{ 'carousel-item': true, active: index === activSlide }"
+        data-bs-interval="4000"
       >
         <img :src="slide.image" class="d-block w-100" alt="..." />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>{{ slide.title }}</h5>
-          <p>{{ slide.content }}</p>
-        </div>
+        <div class="carousel-caption d-none d-md-block"></div>
       </div>
     </div>
     <button
       class="carousel-control-prev"
-      type="button"
       data-bs-target="#carouselExampleControls"
       data-bs-slide="prev"
+      type="button"
     >
       <img src="@/assets/left.png" alt="" />
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -29,14 +28,28 @@
     </button>
     <button
       class="carousel-control-next"
-      type="button"
       data-bs-target="#carouselExampleControls"
       data-bs-slide="next"
+      type="button"
     >
       <img src="@/assets/right.png" alt="" />
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-indicators">
+      <div
+        class="carousel-indicators-custom"
+        v-for="(slide, index) in slides"
+        :key="index"
+        data-bs-target="#carouselExampleControls"
+        :data-bs-slide-to="index"
+        :class="{
+          active: index === activSlide,
+        }"
+      >
+        {{ slide.title }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -71,23 +84,72 @@ const slides = [
     image: require("@/assets/carousel-imgs/1442x316,,b97c53932a5d4306b839f6f577e0a62d.webp"),
   },
 ];
+
+const activSlide = ref(0);
+const activTag = ref(0);
+
+const nextSlide = () => {};
+
+const prevSlide = () => {};
 </script>
 
 <style scoped>
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-vue/dist/bootstrap-vue.css";
 
+.carousel-indicators-custom.active {
+  font-weight: bold;
+  border-top: 4px solid rgb(40, 40, 40);
+  border-left: 4px solid rgb(255, 255, 255);
+  border-right: 4px solid rgb(255, 255, 255);
+}
+
+.carousel-indicators {
+  position: absolute;
+  display: flex;
+  bottom: -48px;
+  align-items: center;
+  justify-content: space-between;
+  width: 77%;
+  margin: 0;
+  left: 11.5%;
+  right: 11%;
+}
+
+.carousel-indicators-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  height: 45px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  text-indent: 0;
+  margin: 0;
+  padding: 10;
+  border: none;
+}
+.carousel-indicators-custom:hover {
+  background-color: rgb(225, 225, 225);
+}
+
 .carousel {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  position: relative;
 }
 
 .carousel-inner {
   height: 250px;
   width: 80%;
   border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 2px 1px;
 }
 
 .carousel-control-prev,
@@ -115,5 +177,13 @@ const slides = [
 
 .carousel-control-next {
   right: 8.5%;
+}
+
+.carousel-control-prev:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.carousel-control-next:hover {
+  background-color: rgb(225, 225, 225);
 }
 </style>
