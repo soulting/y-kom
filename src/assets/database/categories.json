@@ -1,0 +1,701 @@
+{
+  "kategorie": [
+    {
+      "nazwa": "Laptopy i komputery",
+      "podkategorie": [
+        {
+          "nazwa": "Laptopy/Notebooki/Ultrabooki",
+          "liczba_produktów": 2184
+        },
+        {
+          "nazwa": "Laptopy 2 w 1",
+          "liczba_produktów": 31
+        },
+        {
+          "nazwa": "Laptopy biznesowe",
+          "liczba_produktów": 557
+        },
+        {
+          "nazwa": "Komputery stacjonarne",
+          "liczba_produktów": 748
+        },
+        {
+          "nazwa": "Komputery G4M3R",
+          "liczba_produktów": 35
+        },
+        {
+          "nazwa": "Tablety",
+          "liczba_produktów": 258
+        },
+        {
+          "nazwa": "Serwery i storage",
+          "liczba_produktów": 961
+        },
+        {
+          "nazwa": "Programy",
+          "liczba_produktów": 177
+        },
+        {
+          "nazwa": "Akcesoria komputerowe",
+          "liczba_produktów": 3266
+        },
+        {
+          "nazwa": "Akcesoria do laptopów",
+          "liczba_produktów": 3986
+        },
+        {
+          "nazwa": "Torby i etui",
+          "liczba_produktów": 1277
+        },
+        {
+          "nazwa": "Stacje dokujące do laptopów",
+          "liczba_produktów": 247
+        }
+      ]
+    },
+    {
+      "nazwa": "Smartfony i smartwatche",
+      "podkategorie": [
+        {
+          "nazwa": "Smartfony i telefony",
+          "liczba_produktów": 941
+        },
+        {
+          "nazwa": "Tablety",
+          "liczba_produktów": 258
+        },
+        {
+          "nazwa": "Inteligentne zegarki",
+          "liczba_produktów": 1246
+        },
+        {
+          "nazwa": "Czytniki ebook",
+          "liczba_produktów": 26
+        },
+        {
+          "nazwa": "Ochrona na telefon",
+          "liczba_produktów": 3076
+        },
+        {
+          "nazwa": "Ładowarki i powerbanki",
+          "liczba_produktów": 718
+        },
+        {
+          "nazwa": "Karty pamięci microSD",
+          "liczba_produktów": 148
+        },
+        {
+          "nazwa": "Słuchawki True Wireless",
+          "liczba_produktów": 545
+        },
+        {
+          "nazwa": "Akcesoria GSM",
+          "liczba_produktów": 5343
+        },
+        {
+          "nazwa": "Akcesoria do tabletów",
+          "liczba_produktów": 944
+        },
+        {
+          "nazwa": "Pamięci flash",
+          "liczba_produktów": 824
+        }
+      ]
+    },
+    {
+      "nazwa": "Gaming i streaming",
+      "podkategorie": [
+        {
+          "nazwa": "Laptopy do gier",
+          "liczba_produktów": 984
+        },
+        {
+          "nazwa": "Komputery do gier",
+          "liczba_produktów": 127
+        },
+        {
+          "nazwa": "Podzespoły do gier",
+          "liczba_produktów": 1711
+        },
+        {
+          "nazwa": "Konsole",
+          "liczba_produktów": 71
+        },
+        {
+          "nazwa": "Akcesoria do konsol",
+          "liczba_produktów": 908
+        },
+        {
+          "nazwa": "Myszki i klawiatury dla graczy",
+          "liczba_produktów": 1168
+        },
+        {
+          "nazwa": "Gry",
+          "liczba_produktów": 1134
+        },
+        {
+          "nazwa": "VR (Virtual Reality)",
+          "liczba_produktów": 56
+        },
+        {
+          "nazwa": "Urządzenia do streamingu",
+          "liczba_produktów": 463
+        },
+        {
+          "nazwa": "Meble gamingowe",
+          "liczba_produktów": 561
+        },
+        {
+          "nazwa": "Monitory dla graczy",
+          "liczba_produktów": 640
+        },
+        {
+          "nazwa": "Gadżety dla graczy",
+          "liczba_produktów": 918
+        },
+        {
+          "nazwa": "Audio dla graczy",
+          "liczba_produktów": 542
+        },
+        {
+          "nazwa": "Tablety dla graczy",
+          "liczba_produktów": 1
+        },
+        {
+          "nazwa": "Kontrolery do gier",
+          "liczba_produktów": 463
+        },
+        {
+          "nazwa": "Plecaki dla graczy",
+          "liczba_produktów": 23
+        },
+        {
+          "nazwa": "Karty pamięci do konsol",
+          "liczba_produktów": 3
+        },
+        {
+          "nazwa": "Fotele dla graczy",
+          "liczba_produktów": 356
+        },
+        {
+          "nazwa": "Symulatory lotów",
+          "liczba_produktów": 44
+        },
+        {
+          "nazwa": "Symulatory jazdy",
+          "liczba_produktów": 150
+        }
+      ]
+    },
+    {
+      "nazwa": "Podzespoły komputerowe",
+      "podkategorie": [
+        {
+          "nazwa": "Dyski twarde HDD i SSD",
+          "liczba_produktów": 1189
+        },
+        {
+          "nazwa": "Karty graficzne",
+          "liczba_produktów": 373
+        },
+        {
+          "nazwa": "Procesory",
+          "liczba_produktów": 146
+        },
+        {
+          "nazwa": "Płyty główne",
+          "liczba_produktów": 297
+        },
+        {
+          "nazwa": "Obudowy komputerowe",
+          "liczba_produktów": 853
+        },
+        {
+          "nazwa": "Pamięci RAM",
+          "liczba_produktów": 624
+        },
+        {
+          "nazwa": "Zasilacze komputerowe",
+          "liczba_produktów": 546
+        },
+        {
+          "nazwa": "Chłodzenia komputerowe",
+          "liczba_produktów": 690
+        },
+        {
+          "nazwa": "Modding PC",
+          "liczba_produktów": 295
+        },
+        {
+          "nazwa": "Karty dźwiękowe",
+          "liczba_produktów": 24
+        },
+        {
+          "nazwa": "Karty przechwytujące wideo",
+          "liczba_produktów": 6
+        },
+        {
+          "nazwa": "Karty sieciowe",
+          "liczba_produktów": 121
+        },
+        {
+          "nazwa": "Napędy optyczne",
+          "liczba_produktów": 39
+        },
+        {
+          "nazwa": "Podzespoły serwerowe",
+          "liczba_produktów": 42
+        },
+        {
+          "nazwa": "Akcesoria do dysków",
+          "liczba_produktów": 130
+        }
+      ]
+    },
+    {
+      "nazwa": "Urządzenia peryferyjne",
+      "podkategorie": [
+        {
+          "nazwa": "Monitory",
+          "liczba_produktów": 1608
+        },
+        {
+          "nazwa": "Drukarki",
+          "liczba_produktów": 146
+        },
+        {
+          "nazwa": "Drukarki ze skanerem",
+          "liczba_produktów": 196
+        },
+        {
+          "nazwa": "Urządzenia sieciowe",
+          "liczba_produktów": 1772
+        },
+        {
+          "nazwa": "Myszki",
+          "liczba_produktów": 720
+        },
+        {
+          "nazwa": "Klawiatury",
+          "liczba_produktów": 908
+        },
+        {
+          "nazwa": "Słuchawki",
+          "liczba_produktów": 1884
+        },
+        {
+          "nazwa": "Głośniki",
+          "liczba_produktów": 611
+        },
+        {
+          "nazwa": "Mikrofony i akcesoria",
+          "liczba_produktów": 453
+        },
+        {
+          "nazwa": "Tablety graficzne",
+          "liczba_produktów": 146
+        },
+        {
+          "nazwa": "Projektory i ekrany",
+          "liczba_produktów": 334
+        },
+        {
+          "nazwa": "Podkładki do komputera",
+          "liczba_produktów": 316
+        },
+        {
+          "nazwa": "Zasilacze UPS i stabilizatory",
+          "liczba_produktów": 947
+        },
+        {
+          "nazwa": "Materiały eksploatacyjne",
+          "liczba_produktów": 1379
+        },
+        {
+          "nazwa": "Skanery",
+          "liczba_produktów": 36
+        },
+        {
+          "nazwa": "Kamery",
+          "liczba_produktów": 492
+        },
+        {
+          "nazwa": "Sprzęt do wideokonferencji",
+          "liczba_produktów": 81
+        },
+        {
+          "nazwa": "Urządzenia biurowe",
+          "liczba_produktów": 78
+        },
+        {
+          "nazwa": "Piloty i manipulatory",
+          "liczba_produktów": 46
+        },
+        {
+          "nazwa": "Akcesoria do monitorów",
+          "liczba_produktów": 386
+        },
+        {
+          "nazwa": "Akcesoria do tabletów graficznych",
+          "liczba_produktów": 36
+        }
+      ]
+    },
+    {
+      "nazwa": "TV i audio",
+      "podkategorie": [
+        {
+          "nazwa": "Telewizory",
+          "liczba_produktów": 274
+        },
+        {
+          "nazwa": "Soundbary",
+          "liczba_produktów": 88
+        },
+        {
+          "nazwa": "Kino domowe",
+          "liczba_produktów": 156
+        },
+        {
+          "nazwa": "Projektory i ekrany",
+          "liczba_produktów": 334
+        },
+        {
+          "nazwa": "Hi-Fi audio",
+          "liczba_produktów": 141
+        },
+        {
+          "nazwa": "Kolumny głośnikowe",
+          "liczba_produktów": 117
+        },
+        {
+          "nazwa": "Głośniki",
+          "liczba_produktów": 611
+        },
+        {
+          "nazwa": "Słuchawki",
+          "liczba_produktów": 1884
+        },
+        {
+          "nazwa": "Mikrofony i akcesoria",
+          "liczba_produktów": 453
+        },
+        {
+          "nazwa": "Odtwarzacze multimedialne",
+          "liczba_produktów": 18
+        },
+        {
+          "nazwa": "Przenośny sprzęt audio",
+          "liczba_produktów": 235
+        },
+        {
+          "nazwa": "Karty dźwiękowe",
+          "liczba_produktów": 24
+        },
+        {
+          "nazwa": "Power Audio",
+          "liczba_produktów": 29
+        },
+        {
+          "nazwa": "Akcesoria do telewizorów",
+          "liczba_produktów": 356
+        },
+        {
+          "nazwa": "Akcesoria do słuchawek",
+          "liczba_produktów": 169
+        },
+        {
+          "nazwa": "Sprzęt DJ",
+          "liczba_produktów": 25
+        },
+        {
+          "nazwa": "Tunery do TV",
+          "liczba_produktów": 1
+        },
+        {
+          "nazwa": "Anteny DVB-T",
+          "liczba_produktów": 6
+        }
+      ]
+    },
+    {
+      "nazwa": "Smarthome i lifestyle",
+      "podkategorie": [
+        {
+          "nazwa": "Inteligentny dom",
+          "liczba_produktów": 1717
+        },
+        {
+          "nazwa": "Drony i akcesoria",
+          "liczba_produktów": 425
+        },
+        {
+          "nazwa": "Pojazdy elektryczne",
+          "liczba_produktów": 133
+        },
+        {
+          "nazwa": "Zdrowie i ergonomia",
+          "liczba_produktów": 415
+        },
+        {
+          "nazwa": "Aparaty fotograficzne",
+          "liczba_produktów": 131
+        },
+        {
+          "nazwa": "Akcesoria samochodowe",
+          "liczba_produktów": 658
+        },
+        {
+          "nazwa": "Monitoring",
+          "liczba_produktów": 242
+        },
+        {
+          "nazwa": "Obiektywy",
+          "liczba_produktów": 276
+        },
+        {
+          "nazwa": "Kamery sportowe i akcesoria",
+          "liczba_produktów": 445
+        },
+        {
+          "nazwa": "Akcesoria foto-video",
+          "liczba_produktów": 609
+        },
+        {
+          "nazwa": "Lampy błyskowe i studyjne",
+          "liczba_produktów": 175
+        },
+        {
+          "nazwa": "Statywy i głowice",
+          "liczba_produktów": 249
+        },
+        {
+          "nazwa": "Stabilizatory obrazu",
+          "liczba_produktów": 59
+        },
+        {
+          "nazwa": "Wyposażenie studia",
+          "liczba_produktów": 267
+        },
+        {
+          "nazwa": "Torby i pokrowce na aparat",
+          "liczba_produktów": 210
+        },
+        {
+          "nazwa": "Akcesoria rowerowe",
+          "liczba_produktów": 15
+        },
+        {
+          "nazwa": "Akcesoria motocyklowe",
+          "liczba_produktów": 4
+        },
+        {
+          "nazwa": "Kamery cyfrowe",
+          "liczba_produktów": 2
+        },
+        {
+          "nazwa": "Fotele do biura",
+          "liczba_produktów": 59
+        },
+        {
+          "nazwa": "Konsole",
+          "liczba_produktów": 71
+        },
+        {
+          "nazwa": "VR (Virtual Reality)",
+          "liczba_produktów": 56
+        },
+        {
+          "nazwa": "Gry",
+          "liczba_produktów": 1134
+        },
+        {
+          "nazwa": "Gadżety dla graczy",
+          "liczba_produktów": 918
+        },
+        {
+          "nazwa": "Akcesoria do urządzeń smart",
+          "liczba_produktów": 94
+        },
+        {
+          "nazwa": "Fotowoltaika",
+          "liczba_produktów": 59
+        }
+      ]
+    },
+    {
+      "nazwa": "Akcesoria",
+      "podkategorie": [
+        {
+          "nazwa": "Kable i przejściówki",
+          "liczba_produktów": 1214
+        },
+        {
+          "nazwa": "Zasilanie",
+          "liczba_produktów": 2251
+        },
+        {
+          "nazwa": "Nośniki danych",
+          "liczba_produktów": 817
+        },
+        {
+          "nazwa": "Słuchawki",
+          "liczba_produktów": 1884
+        },
+        {
+          "nazwa": "Myszki",
+          "liczba_produktów": 720
+        },
+        {
+          "nazwa": "Klawiatury",
+          "liczba_produktów": 908
+        },
+        {
+          "nazwa": "Akcesoria do laptopów",
+          "liczba_produktów": 3986
+        },
+        {
+          "nazwa": "Akcesoria komputerowe",
+          "liczba_produktów": 3266
+        },
+        {
+          "nazwa": "Akcesoria GSM",
+          "liczba_produktów": 5343
+        },
+        {
+          "nazwa": "Dyski zewnętrzne SSD",
+          "liczba_produktów": 170
+        },
+        {
+          "nazwa": "Dyski zewnętrzne HDD",
+          "liczba_produktów": 235
+        },
+        {
+          "nazwa": "Czytniki kart pamięci",
+          "liczba_produktów": 51
+        },
+        {
+          "nazwa": "Karty dźwiękowe",
+          "liczba_produktów": 24
+        },
+        {
+          "nazwa": "Środki czyszczące",
+          "liczba_produktów": 30
+        },
+        {
+          "nazwa": "Głośniki",
+          "liczba_produktów": 611
+        },
+        {
+          "nazwa": "Pojazdy elektryczne",
+          "liczba_produktów": 133
+        },
+        {
+          "nazwa": "Podkładki do komputera",
+          "liczba_produktów": 316
+        },
+        {
+          "nazwa": "Listwy zasilające",
+          "liczba_produktów": 189
+        },
+        {
+          "nazwa": "Akcesoria do dysków",
+          "liczba_produktów": 130
+        },
+        {
+          "nazwa": "Urządzenia biurowe",
+          "liczba_produktów": 78
+        },
+        {
+          "nazwa": "Usługi dodatkowe",
+          "liczba_produktów": 85
+        },
+        {
+          "nazwa": "Gadżety",
+          "liczba_produktów": 14
+        },
+        {
+          "nazwa": "Narzędzia serwisowe i sieciowe",
+          "liczba_produktów": 52
+        },
+        {
+          "nazwa": "Akcesoria do tabletów",
+          "liczba_produktów": 944
+        },
+        {
+          "nazwa": "Akcesoria foto-video",
+          "liczba_produktów": 609
+        },
+        {
+          "nazwa": "Akcesoria do monitorów",
+          "liczba_produktów": 386
+        },
+        {
+          "nazwa": "Akcesoria do telewizorów",
+          "liczba_produktów": 356
+        },
+        {
+          "nazwa": "Akcesoria do konsol",
+          "liczba_produktów": 908
+        },
+        {
+          "nazwa": "Akcesoria do słuchawek",
+          "liczba_produktów": 169
+        },
+        {
+          "nazwa": "Akcesoria do myszek",
+          "liczba_produktów": 38
+        },
+        {
+          "nazwa": "Akcesoria do klawiatur",
+          "liczba_produktów": 66
+        },
+        {
+          "nazwa": "Akcesoria do kontrolerów",
+          "liczba_produktów": 38
+        },
+        {
+          "nazwa": "Akcesoria do tabletów graficznych",
+          "liczba_produktów": 36
+        },
+        {
+          "nazwa": "Pamięci flash",
+          "liczba_produktów": 824
+        }
+      ]
+    },
+    {
+      "nazwa": "Trendy, promocje i nowości",
+      "podkategorie": [
+        {
+          "nazwa": "Promocje",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Nowości",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Silver Monkey SMX",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Komputery G4M3R",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Strefa Apple",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Strefa Samsung",
+          "liczba_produktów": 0
+        },
+        {
+          "nazwa": "Strefa Xiaomi",
+          "liczba_produktów": 0
+        }
+      ]
+    }
+  ]
+}

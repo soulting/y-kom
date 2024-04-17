@@ -67,6 +67,16 @@
   align-items: center;
   height: 48px;
   width: 100%;
+  transition: all 0.3s ease;
+  padding: 7px;
+}
+
+.undertab:hover {
+  height: 44px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 2px 1px;
 }
 
 .undertab img {
@@ -75,8 +85,8 @@
 }
 
 .undertab p {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-family: Lato, sans-serif;
   line-height: 1.3;
   margin: 0;
 }
