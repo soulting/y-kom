@@ -6,13 +6,15 @@
     <div class="start-site-container">
       <StartSite />
     </div>
+    <NavbarUntertabsContent />
   </main>
 </template>
 
 <script setup>
 import Navbar from "@/components/Navbar.vue";
-
 import StartSite from "@/components/StartSite.vue";
+import NavbarUntertabsContent from "@/components/NavbarUntertabsContent.vue";
+
 import { computed, ref } from "vue";
 
 const onTop = ref(true);
