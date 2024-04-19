@@ -6,7 +6,7 @@
     <div class="start-site-container">
       <StartSite />
     </div>
-    <NavbarUntertabsContent />
+    <NavbarUntertabsContent :categories="categories" />
   </main>
 </template>
 
@@ -14,8 +14,13 @@
 import Navbar from "@/components/Navbar.vue";
 import StartSite from "@/components/StartSite.vue";
 import NavbarUntertabsContent from "@/components/NavbarUntertabsContent.vue";
-
-import { computed, ref } from "vue";
+import getCategories from "@/composables/getCategories";
+import { computed, onMounted, ref } from "vue";
+const categories = ref(null);
+onMounted(async () => {
+  categories.value = await getCategories();
+  console.log(categories.value);
+});
 
 const onTop = ref(true);
 
