@@ -7,62 +7,386 @@
         {
           "nazwa": "Laptopy/Notebooki/Ultrabooki",
           "liczba_produktów": 2184,
-          "pod_podkategorie": true
+          "pod_podkategorie": [
+            {
+              "nazwa": "Notebooki / Laptopy 18\"",
+              "liczba_produktów": 30
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 17,3\"",
+              "liczba_produktów": 158
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 17\"",
+              "liczba_produktów": 16
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 16\"",
+              "liczba_produktów": 511
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 15,6\"",
+              "liczba_produktów": 860
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 15,3\"",
+              "liczba_produktów": 44
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 15,0\"",
+              "liczba_produktów": 3
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 14,1\"",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 14,0\"",
+              "liczba_produktów": 371
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 13,6\"",
+              "liczba_produktów": 96
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 13,3\"",
+              "liczba_produktów": 61
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 12,5\"",
+              "liczba_produktów": 1
+            },
+            {
+              "nazwa": "Notebooki / Laptopy 10,8\"",
+              "liczba_produktów": 2
+            }
+          ]
         },
         {
           "nazwa": "Laptopy 2 w 1",
           "liczba_produktów": 31,
-          "pod_podkategorie": false
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Laptopy biznesowe",
           "liczba_produktów": 557,
-          "pod_podkategorie": true
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Komputery stacjonarne",
           "liczba_produktów": 748,
-          "pod_podkategorie": false
+          "pod_podkategorie": [
+            {
+              "nazwa": "Desktopy",
+              "liczba_produktów": 442
+            },
+            {
+              "nazwa": "All-in-One",
+              "liczba_produktów": 189
+            },
+            {
+              "nazwa": "Nettopy/Mini-PC",
+              "liczba_produktów": 72
+            },
+            {
+              "nazwa": "Serwery",
+              "liczba_produktów": 61
+            }
+          ]
         },
         {
           "nazwa": "Komputery G4M3R",
           "liczba_produktów": 35,
-          "pod_podkategorie": true
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Tablety",
           "liczba_produktów": 258,
-          "pod_podkategorie": false
+          "pod_podkategorie": [
+            {
+              "nazwa": "Tablety 14,6”",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Tablety 12\"",
+              "liczba_produktów": 18
+            },
+            {
+              "nazwa": "Tablety 13\"",
+              "liczba_produktów": 22
+            },
+            {
+              "nazwa": "Tablety 11''",
+              "liczba_produktów": 61
+            },
+            {
+              "nazwa": "Tablety 10\"",
+              "liczba_produktów": 112
+            },
+            {
+              "nazwa": "Tablety 9\"",
+              "liczba_produktów": 3
+            },
+            {
+              "nazwa": "Tablety 8\"",
+              "liczba_produktów": 35
+            },
+            {
+              "nazwa": "Tablety 7\"",
+              "liczba_produktów": 1
+            }
+          ]
         },
         {
           "nazwa": "Serwery i storage",
           "liczba_produktów": 961,
-          "pod_podkategorie": true
+          "pod_podkategorie": [
+            {
+              "nazwa": "Serwery",
+              "liczba_produktów": 61
+            },
+            {
+              "nazwa": "Dyski serwerowe",
+              "liczba_produktów": 31
+            },
+            {
+              "nazwa": "Pamięci RAM serwerowe",
+              "liczba_produktów": 8
+            },
+            {
+              "nazwa": "Oprogramowanie serwerowe",
+              "liczba_produktów": 31
+            },
+            {
+              "nazwa": "Zasilacze awaryjne (UPS)",
+              "liczba_produktów": 717
+            },
+            {
+              "nazwa": "Stabilizatory napięcia",
+              "liczba_produktów": 23
+            },
+            {
+              "nazwa": "Szafy RACK",
+              "liczba_produktów": 90
+            },
+            {
+              "nazwa": "Power Distribution Unit (PDU)",
+              "liczba_produktów": 23
+            },
+            {
+              "nazwa": "Macierze dyskowe (RAID)",
+              "liczba_produktów": 1
+            }
+          ]
         },
         {
           "nazwa": "Programy",
           "liczba_produktów": 177,
-          "pod_podkategorie": false
+          "pod_podkategorie": [
+            {
+              "nazwa": "Systemy operacyjne",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Programy biurowe",
+              "liczba_produktów": 33
+            },
+            {
+              "nazwa": "Programy antywirusowe",
+              "liczba_produktów": 81
+            },
+            {
+              "nazwa": "Programy graficzne i wideo",
+              "liczba_produktów": 14
+            },
+            {
+              "nazwa": "Programy użytkowe",
+              "liczba_produktów": 8
+            },
+            {
+              "nazwa": "Oprogramowanie serwerowe",
+              "liczba_produktów": 31
+            },
+            {
+              "nazwa": "Systemy sprzedaży",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Mapy do nawigacji GPS",
+              "liczba_produktów": 2
+            }
+          ]
         },
         {
           "nazwa": "Akcesoria komputerowe",
           "liczba_produktów": 3266,
-          "pod_podkategorie": true
+          "pod_podkategorie": [
+            {
+              "nazwa": "Myszki przewodowe",
+              "liczba_produktów": 257
+            },
+            {
+              "nazwa": "Myszki bezprzewodowe",
+              "liczba_produktów": 420
+            },
+            {
+              "nazwa": "Klawiatury przewodowe",
+              "liczba_produktów": 451
+            },
+            {
+              "nazwa": "Klawiatury bezprzewodowe",
+              "liczba_produktów": 303
+            },
+            {
+              "nazwa": "Zestawy klawiatura i mysz",
+              "liczba_produktów": 92
+            },
+            {
+              "nazwa": "Kamery internetowe",
+              "liczba_produktów": 76
+            },
+            {
+              "nazwa": "Pendrive (pamięci USB)",
+              "liczba_produktów": 414
+            },
+            {
+              "nazwa": "Słuchawki nauszne",
+              "liczba_produktów": 783
+            },
+            {
+              "nazwa": "Głośniki komputerowe",
+              "liczba_produktów": 132
+            },
+            {
+              "nazwa": "Rozszerzenia gwarancji",
+              "liczba_produktów": 11
+            },
+            {
+              "nazwa": "Mouse bungee",
+              "liczba_produktów": 13
+            },
+            {
+              "nazwa": "Moduły Bluetooth",
+              "liczba_produktów": 23
+            },
+            {
+              "nazwa": "Lampki na USB",
+              "liczba_produktów": 14
+            },
+            {
+              "nazwa": "Konwertery",
+              "liczba_produktów": 21
+            },
+            {
+              "nazwa": "Kontrolery",
+              "liczba_produktów": 47
+            },
+            {
+              "nazwa": "Huby USB",
+              "liczba_produktów": 206
+            }
+          ]
         },
         {
           "nazwa": "Akcesoria do laptopów",
           "liczba_produktów": 3986,
-          "pod_podkategorie": false
+          "pod_podkategorie": [
+            {
+              "nazwa": "Torby na laptopy",
+              "liczba_produktów": 420
+            },
+            {
+              "nazwa": "Plecaki na laptopy",
+              "liczba_produktów": 478
+            },
+            {
+              "nazwa": "Etui na laptopy",
+              "liczba_produktów": 398
+            },
+            {
+              "nazwa": "Podstawki chłodzące",
+              "liczba_produktów": 37
+            },
+            {
+              "nazwa": "Laptop standy",
+              "liczba_produktów": 85
+            },
+            {
+              "nazwa": "Stacje dokujące do laptopów",
+              "liczba_produktów": 249
+            },
+            {
+              "nazwa": "Pamięci RAM do laptopów",
+              "liczba_produktów": 92
+            },
+            {
+              "nazwa": "Dyski zewnętrzne SSD",
+              "liczba_produktów": 170
+            },
+            {
+              "nazwa": "Dyski zewnętrzne HDD",
+              "liczba_produktów": 236
+            },
+            {
+              "nazwa": "Baterie do laptopów",
+              "liczba_produktów": 262
+            },
+            {
+              "nazwa": "Zasilacze do laptopów",
+              "liczba_produktów": 124
+            },
+            {
+              "nazwa": "Rozszerzone gwarancje laptopów",
+              "liczba_produktów": 77
+            },
+            {
+              "nazwa": "Folie ochronne na laptopy",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Filtry na laptopy",
+              "liczba_produktów": 10
+            },
+            {
+              "nazwa": "Zaślepki na kamerę laptopa",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Replikatory portów",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Linki zabezpieczające",
+              "liczba_produktów": 26
+            },
+            {
+              "nazwa": "Napędy CD/DVD do laptopów",
+              "liczba_produktów": 32
+            }
+          ]
         },
         {
           "nazwa": "Torby i etui",
           "liczba_produktów": 1277,
-          "pod_podkategorie": true
+          "pod_podkategorie": [
+            {
+              "nazwa": "Torby na laptopy",
+              "liczba_produktów": 420
+            },
+            {
+              "nazwa": "Plecaki na laptopy",
+              "liczba_produktów": 478
+            },
+            {
+              "nazwa": "Etui na laptopy",
+              "liczba_produktów": 398
+            }
+          ]
         },
         {
           "nazwa": "Stacje dokujące do laptopów",
           "liczba_produktów": 247,
-          "pod_podkategorie": false
+          "pod_podkategorie": []
         }
       ]
     },
@@ -72,47 +396,342 @@
       "podkategorie": [
         {
           "nazwa": "Smartfony i telefony",
-          "liczba_produktów": 941
+          "liczba_produktów": 941,
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Tablety",
-          "liczba_produktów": 258
+          "liczba_produktów": 258,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Tablety 14,6”",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Tablety 12\"",
+              "liczba_produktów": 18
+            },
+            {
+              "nazwa": "Tablety 13\"",
+              "liczba_produktów": 22
+            },
+            {
+              "nazwa": "Tablety 11''",
+              "liczba_produktów": 61
+            },
+            {
+              "nazwa": "Tablety 10\"",
+              "liczba_produktów": 112
+            },
+            {
+              "nazwa": "Tablety 9\"",
+              "liczba_produktów": 3
+            },
+            {
+              "nazwa": "Tablety 8\"",
+              "liczba_produktów": 35
+            },
+            {
+              "nazwa": "Tablety 7\"",
+              "liczba_produktów": 1
+            }
+          ]
         },
         {
           "nazwa": "Inteligentne zegarki",
-          "liczba_produktów": 1246
+          "liczba_produktów": 1249,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Smartwatche",
+              "liczba_produktów": 385
+            },
+            {
+              "nazwa": "Smartwatche LTE",
+              "liczba_produktów": 94
+            },
+            {
+              "nazwa": "Smartwatche dla dzieci",
+              "liczba_produktów": 19
+            },
+            {
+              "nazwa": "Smartbandy",
+              "liczba_produktów": 24
+            },
+            {
+              "nazwa": "Zegarki sportowe",
+              "liczba_produktów": 129
+            },
+            {
+              "nazwa": "Pulsometry",
+              "liczba_produktów": 5
+            },
+            {
+              "nazwa": "Paski do smartwatchy",
+              "liczba_produktów": 435
+            },
+            {
+              "nazwa": "Ładowarki do smartwatchy",
+              "liczba_produktów": 13
+            },
+            {
+              "nazwa": "Stojaki do smartwatchy",
+              "liczba_produktów": 1
+            },
+            {
+              "nazwa": "Etui i obudowy na smartwatche",
+              "liczba_produktów": 10
+            },
+            {
+              "nazwa": "Folie ochronne na smartwatche",
+              "liczba_produktów": 58
+            },
+            {
+              "nazwa": "Inteligentne wagi",
+              "liczba_produktów": 11
+            },
+            {
+              "nazwa": "Profesjonalny sprzęt medyczny",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Ciśnieniomierze",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Termometry",
+              "liczba_produktów": 1
+            },
+            {
+              "nazwa": "Bransoletki do smartwatchy",
+              "liczba_produktów": 78
+            },
+            {
+              "nazwa": "Opaski do smartwatchy",
+              "liczba_produktów": 109
+            }
+          ]
+        },
+        {
+          "nazwa": "Inteligentne zegarki",
+          "liczba_produktów": 1246,
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Czytniki ebook",
-          "liczba_produktów": 26
+          "liczba_produktów": 26,
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Ochrona na telefon",
-          "liczba_produktów": 3076
+          "liczba_produktów": 3076,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Etui i obudowy na smartfony",
+              "liczba_produktów": 2427
+            },
+            {
+              "nazwa": "Folie i szkła na smartfony",
+              "liczba_produktów": 619
+            }
+          ]
         },
         {
           "nazwa": "Ładowarki i powerbanki",
-          "liczba_produktów": 718
+          "liczba_produktów": 718,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Ładowarki do smartfonów",
+              "liczba_produktów": 439
+            },
+            {
+              "nazwa": "Powerbanki",
+              "liczba_produktów": 285
+            }
+          ]
         },
         {
           "nazwa": "Karty pamięci microSD",
-          "liczba_produktów": 148
+          "liczba_produktów": 148,
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Słuchawki True Wireless",
-          "liczba_produktów": 545
+          "liczba_produktów": 545,
+          "pod_podkategorie": []
         },
         {
           "nazwa": "Akcesoria GSM",
-          "liczba_produktów": 5343
+          "liczba_produktów": 5343,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Etui i obudowy na smartfony",
+              "liczba_produktów": 2427
+            },
+            {
+              "nazwa": "Folie i szkła na smartfony",
+              "liczba_produktów": 619
+            },
+            {
+              "nazwa": "Kijki do selfie",
+              "liczba_produktów": 8
+            },
+            {
+              "nazwa": "Uchwyty do smartfonów",
+              "liczba_produktów": 185
+            },
+            {
+              "nazwa": "Stacje dokujące do smartfonów",
+              "liczba_produktów": 2
+            },
+            {
+              "nazwa": "Moduły do smartfonów",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Lokalizatory i komunikatory",
+              "liczba_produktów": 102
+            },
+            {
+              "nazwa": "Opaski naramienne",
+              "liczba_produktów": 4
+            },
+            {
+              "nazwa": "Ładowarki do smartfonów",
+              "liczba_produktów": 439
+            },
+            {
+              "nazwa": "Słuchawki douszne i dokanałowe",
+              "liczba_produktów": 631
+            },
+            {
+              "nazwa": "Głośniki przenośne",
+              "liczba_produktów": 192
+            },
+            {
+              "nazwa": "Zestawy głośnomówiące",
+              "liczba_produktów": 16
+            },
+            {
+              "nazwa": "Zestawy słuchawkowe",
+              "liczba_produktów": 18
+            },
+            {
+              "nazwa": "Powerbanki",
+              "liczba_produktów": 285
+            },
+            {
+              "nazwa": "Czytniki kart do smartfonów",
+              "liczba_produktów": 1
+            },
+            {
+              "nazwa": "Kable Lightning",
+              "liczba_produktów": 105
+            },
+            {
+              "nazwa": "Kable USB-C",
+              "liczba_produktów": 265
+            },
+            {
+              "nazwa": "Karty SIM",
+              "liczba_produktów": 2
+            }
+          ]
         },
         {
           "nazwa": "Akcesoria do tabletów",
-          "liczba_produktów": 944
+          "liczba_produktów": 944,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Etui na tablety",
+              "liczba_produktów": 425
+            },
+            {
+              "nazwa": "Podstawki do tabletów",
+              "liczba_produktów": 19
+            },
+            {
+              "nazwa": "Stacje dokujące do tabletów",
+              "liczba_produktów": 5
+            },
+            {
+              "nazwa": "Klawiatury do tabletów",
+              "liczba_produktów": 38
+            },
+            {
+              "nazwa": "Rysiki do tabletów",
+              "liczba_produktów": 73
+            },
+            {
+              "nazwa": "Uchwyty do tabletów",
+              "liczba_produktów": 13
+            },
+            {
+              "nazwa": "Folie ochronne na tablety",
+              "liczba_produktów": 76
+            },
+            {
+              "nazwa": "Powerbanki",
+              "liczba_produktów": 285
+            },
+            {
+              "nazwa": "Ładowarki do tabletów",
+              "liczba_produktów": 3
+            },
+            {
+              "nazwa": "Pozostałe",
+              "liczba_produktów": 2
+            }
+          ]
         },
         {
           "nazwa": "Pamięci flash",
-          "liczba_produktów": 824
+          "liczba_produktów": 824,
+          "pod_podkategorie": [
+            {
+              "nazwa": "Pendrive (pamięci USB)",
+              "liczba_produktów": 414
+            },
+            {
+              "nazwa": "Karty pamięci microSD",
+              "liczba_produktów": 148
+            },
+            {
+              "nazwa": "Karty pamięci SD",
+              "liczba_produktów": 129
+            },
+            {
+              "nazwa": "Karty pamięci CF",
+              "liczba_produktów": 7
+            },
+            {
+              "nazwa": "Karty pamięci CFast",
+              "liczba_produktów": 5
+            },
+            {
+              "nazwa": "Karty pamięci CFexpress",
+              "liczba_produktów": 33
+            },
+            {
+              "nazwa": "Czytniki kart USB",
+              "liczba_produktów": 46
+            },
+            {
+              "nazwa": "Czytniki kart do smartfonów",
+              "liczba_produktów": 1
+            },
+            {
+              "nazwa": "Etui na karty pamięci",
+              "liczba_produktów": 5
+            },
+            {
+              "nazwa": "Karty pamięci do konsol",
+              "liczba_produktów": 3
+            },
+            {
+              "nazwa": "Klucze sprzętowe",
+              "liczba_produktów": 50
+            }
+          ]
         }
       ]
     },
