@@ -2,59 +2,73 @@
   "kategorie": [
     {
       "nazwa": "Laptopy i komputery",
+      "id": "1",
       "podkategorie": [
         {
           "nazwa": "Laptopy/Notebooki/Ultrabooki",
-          "liczba_produktów": 2184
+          "liczba_produktów": 2184,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Laptopy 2 w 1",
-          "liczba_produktów": 31
+          "liczba_produktów": 31,
+          "pod_podkategorie": false
         },
         {
           "nazwa": "Laptopy biznesowe",
-          "liczba_produktów": 557
+          "liczba_produktów": 557,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Komputery stacjonarne",
-          "liczba_produktów": 748
+          "liczba_produktów": 748,
+          "pod_podkategorie": false
         },
         {
           "nazwa": "Komputery G4M3R",
-          "liczba_produktów": 35
+          "liczba_produktów": 35,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Tablety",
-          "liczba_produktów": 258
+          "liczba_produktów": 258,
+          "pod_podkategorie": false
         },
         {
           "nazwa": "Serwery i storage",
-          "liczba_produktów": 961
+          "liczba_produktów": 961,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Programy",
-          "liczba_produktów": 177
+          "liczba_produktów": 177,
+          "pod_podkategorie": false
         },
         {
           "nazwa": "Akcesoria komputerowe",
-          "liczba_produktów": 3266
+          "liczba_produktów": 3266,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Akcesoria do laptopów",
-          "liczba_produktów": 3986
+          "liczba_produktów": 3986,
+          "pod_podkategorie": false
         },
         {
           "nazwa": "Torby i etui",
-          "liczba_produktów": 1277
+          "liczba_produktów": 1277,
+          "pod_podkategorie": true
         },
         {
           "nazwa": "Stacje dokujące do laptopów",
-          "liczba_produktów": 247
+          "liczba_produktów": 247,
+          "pod_podkategorie": false
         }
       ]
     },
     {
       "nazwa": "Smartfony i smartwatche",
+      "id": "2",
       "podkategorie": [
         {
           "nazwa": "Smartfony i telefony",
@@ -104,6 +118,7 @@
     },
     {
       "nazwa": "Gaming i streaming",
+      "id": "3",
       "podkategorie": [
         {
           "nazwa": "Laptopy do gier",
@@ -189,6 +204,7 @@
     },
     {
       "nazwa": "Podzespoły komputerowe",
+      "id": "4",
       "podkategorie": [
         {
           "nazwa": "Dyski twarde HDD i SSD",
@@ -254,6 +270,7 @@
     },
     {
       "nazwa": "Urządzenia peryferyjne",
+      "id": "5",
       "podkategorie": [
         {
           "nazwa": "Monitory",
@@ -343,6 +360,7 @@
     },
     {
       "nazwa": "TV i audio",
+      "id": "6",
       "podkategorie": [
         {
           "nazwa": "Telewizory",
@@ -420,6 +438,7 @@
     },
     {
       "nazwa": "Smarthome i lifestyle",
+      "id": "7",
       "podkategorie": [
         {
           "nazwa": "Inteligentny dom",
@@ -525,6 +544,7 @@
     },
     {
       "nazwa": "Akcesoria",
+      "id": "8",
       "podkategorie": [
         {
           "nazwa": "Kable i przejściówki",
@@ -666,6 +686,7 @@
     },
     {
       "nazwa": "Trendy, promocje i nowości",
+      "id": "9",
       "podkategorie": [
         {
           "nazwa": "Promocje",

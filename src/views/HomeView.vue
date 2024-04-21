@@ -16,7 +16,7 @@ import StartSite from "@/components/StartSite.vue";
 import NavbarUntertabsContent from "@/components/NavbarUntertabsContent.vue";
 import getCategories from "@/composables/getCategories";
 import { computed, onMounted, ref } from "vue";
-const categories = ref(null);
+const categories = ref({ loaded: false });
 onMounted(async () => {
   categories.value = await getCategories();
   console.log(categories.value);

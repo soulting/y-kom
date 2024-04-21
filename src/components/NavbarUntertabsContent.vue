@@ -1,53 +1,39 @@
 <template>
   <div class="undertabs-content-container">
-    <div class="category-list">
+    <div v-if="categories.loaded" class="category-list">
       <div class="category-list-element" id="0">
         <p>Laptopy i komputery</p>
         <p>Wszystkie</p>
       </div>
-      <div class="category-list-element" id="1">
-        <p>Podkategoria 1</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
+
+      <div
+        v-for="(element, index) in categories.categories[
+          primeCategory
+        ].podkategorie.slice(0, 10)"
+        :key="index"
+        class="category-list-element"
+        :id="index + 1"
+      >
+        <p>{{ element.nazwa }}</p>
+        <img
+          v-if="element.pod_podkategorie"
+          src="@/assets/right.png"
+          alt="right arrow image"
+        />
       </div>
-      <div class="category-list-element" id="2">
-        <p>Podkategoria 2</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="3">
-        <p>Podkategoria 3</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="4">
-        <p>Podkategoria 4</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="5">
-        <p>Podkategoria 5</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="6">
-        <p>Podkategoria 6</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="7">
-        <p>Podkategoria 7</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="8">
-        <p>Podkategoria 8</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="9">
-        <p>Podkategoria 9</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="10">
-        <p>Podkategoria 10</p>
-        <img src="@/assets/right.png" alt="right arrow image" />
-      </div>
-      <div class="category-list-element" id="11">
+
+      <div
+        v-if="categories.loaded !== false"
+        class="category-list-element"
+        id="11"
+      >
         <p>Wszystkie</p>
-        <p class="count">+3</p>
+        <p
+          v-if="categories.categories[primeCategory].podkategorie.length > 3"
+          class="count"
+        >
+          +{{ categories.categories[primeCategory].podkategorie.length - 10 }}
+        </p>
       </div>
     </div>
     <div class="category-specifics">
@@ -101,7 +87,7 @@ const props = defineProps({
   },
 });
 
-console.log(props.categories);
+const primeCategory = 0;
 </script>
 
 <style>
