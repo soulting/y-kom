@@ -8,7 +8,7 @@
 
       <div
         v-for="(element, index) in categories.categories[
-          primeCategory
+          primaryCategory
         ].podkategorie.slice(0, 10)"
         :key="index"
         class="category-list-element"
@@ -16,61 +16,47 @@
       >
         <p>{{ element.nazwa }}</p>
         <img
-          v-if="element.pod_podkategorie"
+          v-if="element.pod_podkategorie.length > 0"
           src="@/assets/right.png"
           alt="right arrow image"
         />
       </div>
 
-      <div
-        v-if="categories.loaded !== false"
-        class="category-list-element"
-        id="11"
-      >
+      <div class="category-list-element" id="11">
         <p>Wszystkie</p>
         <p
-          v-if="categories.categories[primeCategory].podkategorie.length > 3"
+          v-if="categories.categories[primaryCategory].podkategorie.length > 3"
           class="count"
         >
-          +{{ categories.categories[primeCategory].podkategorie.length - 10 }}
+          +{{ categories.categories[primaryCategory].podkategorie.length - 10 }}
         </p>
       </div>
     </div>
-    <div class="category-specifics">
+    <div v-if="categories.loaded" class="category-specifics">
       <div class="specyfics-list-element" id="0">
         <p>Laptopy i komputery</p>
         <p>Wszystkie</p>
       </div>
-      <div class="specyfics-list-element" id="1">
-        <p>Pod-Podkategoria 1</p>
+      <div
+        v-if="
+          categories.categories[primaryCategory].podkategorie[secondaryCategory]
+            .pod_podkategorie.length > 0
+        "
+        class="undercategory-container"
+      >
+        <div
+          v-for="(element, index) in categories.categories[
+            primaryCategory
+          ].podkategorie[secondaryCategory].pod_podkategorie.slice(0, 10)"
+          :key="index"
+          class="specyfics-list-element"
+          id="1"
+        >
+          <p>{{ element.nazwa }}</p>
+        </div>
       </div>
-      <div class="specyfics-list-element" id="2">
-        <p>Pod-Podkategoria 2</p>
-      </div>
-      <div class="specyfics-list-element" id="3">
-        <p>Pod-Podkategoria 3</p>
-      </div>
-      <div class="specyfics-list-element" id="4">
-        <p>Pod-Podkategoria 4</p>
-      </div>
-      <div class="specyfics-list-element" id="5">
-        <p>Pod-Podkategoria 5</p>
-      </div>
-      <div class="specyfics-list-element" id="6">
-        <p>Pod-Podkategoria 6</p>
-      </div>
-      <div class="specyfics-list-element" id="7">
-        <p>Pod-Podkategoria 7</p>
-      </div>
-      <div class="specyfics-list-element" id="8">
-        <p>Pod-Podkategoria 8</p>
-      </div>
-      <div class="specyfics-list-element" id="9">
-        <p>Pod-Podkategoria 9</p>
-      </div>
-      <div class="specyfics-list-element" id="10">
-        <p>Pod-Podkategoria 10</p>
-      </div>
+      <div class="undercategory-img-container"></div>
+
       <div class="specyfics-list-element" id="11">
         <p>Wszystkie</p>
         <p class="count">+6</p>
@@ -87,7 +73,8 @@ const props = defineProps({
   },
 });
 
-const primeCategory = 0;
+const primaryCategory = 0;
+const secondaryCategory = 3;
 </script>
 
 <style>
