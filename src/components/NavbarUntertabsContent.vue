@@ -13,6 +13,7 @@
         :key="index"
         class="category-list-element"
         :id="index + 1"
+        @mouseover="secondaryCategory = index"
       >
         <p>{{ element.nazwa }}</p>
         <img
@@ -34,38 +35,24 @@
     </div>
     <div v-if="categories.loaded" class="category-specifics">
       <div class="specyfics-list-element" id="0">
-        <p>Laptopy i komputery</p>
+        <p>
+          {{
+            categories.categories[primaryCategory].podkategorie[
+              secondaryCategory
+            ].nazwa
+          }}
+        </p>
         <p>Wszystkie</p>
       </div>
-      <div
-        v-if="
-          categories.categories[primaryCategory].podkategorie[secondaryCategory]
-            .pod_podkategorie.length > 0
-        "
-        class="undercategory-container"
-      >
-        <div
-          v-for="(element, index) in categories.categories[
-            primaryCategory
-          ].podkategorie[secondaryCategory].pod_podkategorie.slice(0, 10)"
-          :key="index"
-          class="specyfics-list-element"
-          id="1"
-        >
-          <p>{{ element.nazwa }}</p>
-        </div>
-      </div>
-      <div class="undercategory-img-container"></div>
 
-      <div class="specyfics-list-element" id="11">
-        <p>Wszystkie</p>
-        <p class="count">+6</p>
-      </div>
+      <div class="undercategory-img-container"></div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
+
 const props = defineProps({
   categories: {
     type: Object,
@@ -74,7 +61,7 @@ const props = defineProps({
 });
 
 const primaryCategory = 0;
-const secondaryCategory = 3;
+const secondaryCategory = ref(0);
 </script>
 
 <style>
@@ -99,7 +86,7 @@ const secondaryCategory = 3;
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .category-list-element,
@@ -110,8 +97,14 @@ const secondaryCategory = 3;
   font-family: Lato, sans-serif;
   height: 32px;
   width: 290px;
-  padding: 0px 22px 0px 24px;
+  padding: 0px 10px 0px 10px;
   margin: 0;
+  transition: all 0.2s;
+  border-radius: 10px;
+}
+
+.category-list-element:hover {
+  background-color: rgb(230, 230, 230);
 }
 
 .category-list-element p,
